@@ -8,21 +8,21 @@ while (asal!=35)
 		printf("=============================\n");
 		printf("\tPilihan Kota:\n");
 		printf("=============================\n");
-        printf(" 1.  Banda Aceh(NAD)\n 2.  Medan(Sumatera Utara)\n 3.  Padang(Sumatera Barat)\n 4.  Palembang(Sumatera Selatan)\n 5.  Pekanbaru(Riau)\n");
-        printf("6.  Tanjung Pinang(Kepulaua Riau)\n 7.  Pangkal Pinang(Kepulauan Bangka Belitung)\n 8.  Jambi\n 9.  Bengkulu\n 10. Bandar Lampung(Lampung)\n");
-        printf("11. Jakarta(DKI Jakarta)\n 12. Bandung(Jawa Barat)\n 13. Serang(Banten)\n 14. Semarang(Jawa Tengah)\n 15. Yogyakarta(D.I.Yogyakarta)\n 16. Surabaya(Jawa Timur)\n");
-        printf("17. Pontianak(Kalimantan Barat)\n 18. Palangkaraya(Kalimantan Tengah)\n 19. Tanjung Selor(Kalimantan Utara)\n 20. Samarinda(Kalimantan Timur)\n 21. Banjarmasin(Kalimantan Selatan)\n");
-        printf("22. Denpasar(Bali)\n 23. Mataram(Nusa Tenggara Barat)\n 24. Kupang(Nusa Tenggara Timur)\n 25. Manado(Sulawesi Utara)\n 26. Gorontalo\n 27. Palu(Sulawesi Tengah)\n");
-        printf("28. Mamuju(Sulawesi Barat)\n 29. Makassar(Sulawesi Selatan)\n 30. Kendari(Sulawesi Tenggara)\n 31. Sofifi(Maluku Utara)\n 32. Ambon(Maluku)\n 33. Mnaokwari(Papua Barat)\n");
-        printf("34. Jayapura(Papua/Irian Jaya)\n 35. Kembali ke Menu Sebelumnya\n");
-        printf("Masukkan Kota Asal Anda:");
+		printf(" 1.  Banda Aceh(NAD)\n 2.  Medan(Sumatera Utara)\n 3.  Padang(Sumatera Barat)\n 4.  Palembang(Sumatera Selatan)\n 5.  Pekanbaru(Riau)\n");
+		printf("6.  Tanjung Pinang(Kepulaua Riau)\n 7.  Pangkal Pinang(Kepulauan Bangka Belitung)\n 8.  Jambi\n 9.  Bengkulu\n 10. Bandar Lampung(Lampung)\n");
+		printf("11. Jakarta(DKI Jakarta)\n 12. Bandung(Jawa Barat)\n 13. Serang(Banten)\n 14. Semarang(Jawa Tengah)\n 15. Yogyakarta(D.I.Yogyakarta)\n 16. Surabaya(Jawa Timur)\n");
+		printf("17. Pontianak(Kalimantan Barat)\n 18. Palangkaraya(Kalimantan Tengah)\n 19. Tanjung Selor(Kalimantan Utara)\n 20. Samarinda(Kalimantan Timur)\n 21. Banjarmasin(Kalimantan Selatan)\n");
+		printf("22. Denpasar(Bali)\n 23. Mataram(Nusa Tenggara Barat)\n 24. Kupang(Nusa Tenggara Timur)\n 25. Manado(Sulawesi Utara)\n 26. Gorontalo\n 27. Palu(Sulawesi Tengah)\n");
+		printf("28. Mamuju(Sulawesi Barat)\n 29. Makassar(Sulawesi Selatan)\n 30. Kendari(Sulawesi Tenggara)\n 31. Sofifi(Maluku Utara)\n 32. Ambon(Maluku)\n 33. Mnaokwari(Papua Barat)\n");
+		printf("34. Jayapura(Papua/Irian Jaya)\n 35. Kembali ke Menu Sebelumnya\n");
+		printf("Masukkan Kota Asal Anda:");
 		scanf("%d", &asal);
 		system("cls");
-    /*34 pilihan kota sal yang akan menampilkan jadwal penerbangan sesuai pilihan pengguna*/
-	if (asal==1)
+		 /*34 pilihan kota sal yang akan menampilkan jadwal penerbangan sesuai pilihan pengguna*/
+		if (asal==1)
   		{
    			printf("======================================================================\n");
-    		printf("\tJadwal Penerbangan Nangroe Aceh Darussalam\n");
+    			printf("\tJadwal Penerbangan Nangroe Aceh Darussalam\n");
 			printf("======================================================================\n");
 			printf("%-30s   |\t%-15s|%-13s|\n", "","Pagi","6.00");
 			printf("%-30s   |\t%-15s|%-13s|\n", "Banda Aceh - Padang", "Siang","12.00");
@@ -32,7 +32,7 @@ while (asal!=35)
 			printf("%-30s   |\t%-15s|%-13s|\n", "Banda Aceh - Padang", "Siang","12.00");
 			printf("%-30s   |\t%-15s|%-13s|\n"," ","Malam","21.00");
 			printf("----------------------------------------------------------------------\n");
-		    printf("%-30s   |\t%-15s|%-13s|\n", "","Pagi","6.00");
+		    	printf("%-30s   |\t%-15s|%-13s|\n", "","Pagi","6.00");
 			printf("%-30s   |\t%-15s|%-13s|\n", "Banda Aceh - Pekanbaru", "Siang","12.00");
 			printf("%-30s   |\t%-15s|%-13s|\n"," ","Malam","21.00");
 			printf("----------------------------------------------------------------------\n");
@@ -160,7 +160,7 @@ while (asal!=35)
   	if (asal==2)
   		{
   			printf("======================================================================\n");
-		    printf("\tJadwal Penerbangan Medan (Sumatera Utara)\n");
+		    	printf("\tJadwal Penerbangan Medan (Sumatera Utara)\n");
 			printf("======================================================================\n");
 			printf("%-30s   |\t%-15s|%-13s|\n", "","Pagi","6.00");
 			printf("%-30s   |\t%-15s|%-13s|\n", "Medan - Banda Aceh", "Siang","12.00");
@@ -170,7 +170,7 @@ while (asal!=35)
 			printf("%-30s   |\t%-15s|%-13s|\n", "Medan - Padang", "Siang","12.00");
 			printf("%-30s   |\t%-15s|%-13s|\n"," ","Malam","21.00");
 			printf("----------------------------------------------------------------------\n");
-		    printf("%-30s   |\t%-15s|%-13s|\n", "","Pagi","6.00");
+		   	printf("%-30s   |\t%-15s|%-13s|\n", "","Pagi","6.00");
 			printf("%-30s   |\t%-15s|%-13s|\n", "Medan - Palembang", "Siang","12.00");
 			printf("%-30s   |\t%-15s|%-13s|\n"," ","Malam","21.00");
 			printf("----------------------------------------------------------------------\n");
